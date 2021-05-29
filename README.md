@@ -20,3 +20,6 @@ Terminal 1
 ```
 exit
 ```
+
+## Running
+Recommended run [inside vm](https://github.com/orginux/vagrants/tree/main/vm-for-dev) only;
