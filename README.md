@@ -1,9 +1,15 @@
 # Building a container from scratch in Go
 [YouTube video](https://www.youtube.com/watch?v=_TsSmSu57Zo)
 
-## Getting ubuntu root fs:
+## Commands
+Create ubuntu root fs dir:
 ```bash
 make ubuntu-rootfs
+```
+
+Build binary:
+```bash
+make build
 ```
 
 ## Running
