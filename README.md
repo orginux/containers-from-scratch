@@ -13,10 +13,11 @@ make build
 ```
 
 ## Running
-Set env `UBUNTUFS=/path/to/ubuntufs` and run:
+Run this code only [inside Virtual Machine](https://github.com/orginux/vagrants/tree/main/vm-for-dev);
+
 ```bash
+cp -vr ubuntufs/ /
+UBUNTUFS_PATH=/ubuntufs
+
 ./conatainer run bash
 ```
-
-## Important
-Run this code only [inside Virtual Machine](https://github.com/orginux/vagrants/tree/main/vm-for-dev);
