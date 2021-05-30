@@ -19,4 +19,4 @@ Set env `UBUNTUFS=/path/to/ubuntufs` and run:
 ```
 
 ## Important
-Recommended run [inside vm](https://github.com/orginux/vagrants/tree/main/vm-for-dev);
+Run this code only [inside Virtual Machine](https://github.com/orginux/vagrants/tree/main/vm-for-dev);
