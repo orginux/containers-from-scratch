@@ -44,7 +44,7 @@ func child() {
 	}
 
 	must(syscall.Sethostname([]byte("container")))
-	must(syscall.Chroot("/home/orginux/repositories/projects/containers-from-scratch/ubuntufs"))
+	must(syscall.Chroot(os.Getenv("UBUNTUFS")))
 	must(syscall.Chdir("/"))
 	must(syscall.Mount("proc", "proc", "proc", 0, ""))
 

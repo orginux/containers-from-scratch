@@ -2,7 +2,7 @@
 [YouTube video](https://www.youtube.com/watch?v=_TsSmSu57Zo)
 
 ## Commands
-Create ubuntu root fs dir:
+Create ubuntu root fs in `ubuntufs` directory:
 ```bash
 make ubuntu-rootfs
 ```
@@ -13,4 +13,10 @@ make build
 ```
 
 ## Running
-Recommended run [inside vm](https://github.com/orginux/vagrants/tree/main/vm-for-dev) only;
+Set env `UBUNTUFS=/path/to/ubuntufs` and run:
+```bash
+./conatainer run bash
+```
+
+## Important
+Recommended run [inside vm](https://github.com/orginux/vagrants/tree/main/vm-for-dev);
