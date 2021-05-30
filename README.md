@@ -4,7 +4,7 @@
 ## Commands
 Create ubuntu root fs in `ubuntufs` directory:
 ```bash
-make ubuntu-rootfs
+make ubuntufs
 ```
 
 Build binary:
